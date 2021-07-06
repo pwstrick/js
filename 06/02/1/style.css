@@ -1,0 +1,51 @@
+:root {
+	border: 1px solid #000;
+}
+.empty p:empty {
+	width: 100px;
+	height: 100px;
+	background: #F60;
+}
+
+.child p:first-child {
+	width: 100px;
+	height: 100px;
+	background: #FC0;
+}
+.child div:first-of-type {
+	width: 100px;
+	height: 100px;
+	background: #666;
+}
+.child div:first-child {
+	width: 100px;
+	height: 100px;
+	background: #000;
+}
+
+.only p:only-child {
+	width: 100px;
+	height: 100px;
+	background: #F60;
+}
+/*.only p:only-of-type {
+	width: 100px;
+	height: 100px;
+	background: #FC0;
+}*/
+
+.nth li:nth-child(1){
+	width: 100px;
+	height: 100px;
+	background: #666;
+}
+.nth li:nth-child(2n){
+	width: 100px;
+	height: 100px;
+	background: #F60;
+}
+.nth p:nth-of-type(2n){
+	width: 100px;
+	height: 100px;
+	background: #FC0;
+}

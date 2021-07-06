@@ -1,0 +1,19 @@
+p {
+  margin: 0;
+}
+div {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  margin: 50px;
+}
+.background {
+  background: url(../../../assets/img/star.png) left bottom repeat-x,
+    url(../../../assets/img/lake.png) center no-repeat;
+}
+.backgrounds {
+  background-image: url(../../../assets/img/star.png),
+    url(../../../assets/img/lake.png);
+  background-position: left bottom, center;
+  background-repeat: repeat-x, no-repeat;
+}

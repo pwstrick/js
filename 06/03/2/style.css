@@ -1,0 +1,14 @@
+.line p {
+	width: 200px;
+}
+.line p::first-line {
+	font-weight: bold;
+}
+
+::selection {
+	color: red;
+}
+
+input::placeholder {
+	color: red;
+}

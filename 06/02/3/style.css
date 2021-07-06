@@ -1,0 +1,32 @@
+.enabled input:enabled {
+	background: #FC0;
+}
+.enabled input:disabled {
+	background: #000;
+}
+
+.checked input:checked {
+	margin: 10px;
+}
+
+.required input:optional {
+	background: #FC0;
+}
+.required input:required {
+	background: #F60;
+}
+
+.valid input[type=email]:invalid {
+	background: #F60;
+}
+
+.read input:read-write {
+	background: #FC0;
+}
+.read input:read-only {
+	background: #F60;
+}
+
+.range input[type=number]:out-of-range {
+	background: #F60;
+}

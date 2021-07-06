@@ -1,0 +1,27 @@
+.letter p::first-letter {
+	font-size: 200%;
+}
+.letter div::first-letter {
+	font-size: 200%;
+}
+.letter div::before {
+	content: "is";
+}
+
+.line p {
+	width: 200px;
+}
+.line p::first-line {
+	font-weight: bold;
+}
+
+input::placeholder {
+	color: red;
+}
+
+.before p::before {
+	content: "I "
+}
+.before p::after {
+	content: " Strick"
+}

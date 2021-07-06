@@ -1,0 +1,11 @@
+h3:target {
+	color: #FC0;
+}
+
+.lang p:lang(en) {
+	font-weight: bold;
+}
+
+.not :not(p) {
+	color: #FC0;
+}

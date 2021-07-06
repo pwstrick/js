@@ -1,0 +1,6 @@
+.before p::before {
+	content: "I "
+}
+.before p::after {
+	content: " Strick"
+}

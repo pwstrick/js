@@ -1,0 +1,12 @@
+:root {
+  --orange-color: #F60;
+}
+p {
+  color: var(--orange-color, #FC0);
+}
+
+/*@supports (--orange-color: #F60) {
+  p {
+    color: blue;
+  }
+}*/
