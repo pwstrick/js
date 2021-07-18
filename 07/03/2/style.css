@@ -1,0 +1,59 @@
+p {
+  margin: 0;
+  text-align: center;
+}
+.fl {
+  float: left;
+}
+.grid {
+  display: grid;
+  width: 250px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid #000;
+  grid-template-rows: repeat(2, 30px);
+  grid-template-columns: repeat(3, 50px);
+  gap: 10px;
+}
+h3 {
+  clear: both;
+}
+.grid section {
+  text-align: center;
+  background: #F60;
+  color: #FFF;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+.justify-content-end {
+  justify-content: end;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.align-content-start {
+  align-content: start;
+}
+.align-content-end {
+  align-content: end;
+}
+.align-content-center {
+  align-content: center;
+}
+.align-content-space-between {
+  align-content: space-between;
+}
+.align-content-space-around {
+  align-content: space-around;
+}
+
+

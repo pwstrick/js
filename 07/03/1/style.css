@@ -1,0 +1,86 @@
+p {
+  margin: 0;
+}
+div {
+  display: grid;
+  width: 400px;
+  height: 100px;
+  margin: 20px 10px;
+  float: left;
+  border: 1px solid #000;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+div.width {
+  width: 200px;
+}
+h3 {
+  clear: both;
+}
+
+section {
+  text-align: center;
+}
+.border section {
+  border: 1px dashed #000;
+}
+.border-solid section {
+  background: #F60;
+  color: #FFF;
+}
+
+.gap {
+  gap: 10px;
+}
+
+.justify-self-start {
+  justify-self: start;
+}
+.justify-self-end {
+  justify-self: end;
+}
+.justify-self-center {
+  justify-self: center;
+}
+.justify-self-stretch {
+  justify-self: stretch;
+}
+
+.align-self-start {
+  align-self: start;
+}
+.align-self-end {
+  align-self: end;
+}
+.align-self-center {
+  align-self: center;
+}
+.align-self-stretch {
+  align-self: stretch;
+}
+
+.justify-items-start {
+  justify-items: start;
+}
+.justify-items-end {
+  justify-items: end;
+}
+.justify-items-center {
+  justify-items: center;
+}
+.justify-items-stretch {
+  justify-items: stretch;
+}
+
+.align-items-start {
+  align-items: start;
+}
+.align-items-end {
+  align-items: end;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-stretch {
+  align-items: stretch;
+}

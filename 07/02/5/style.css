@@ -1,0 +1,45 @@
+p {
+  margin: 0;
+}
+div {
+  display: grid;
+  width: 200px;
+  height: 100px;
+  border: 1px solid #000;
+  margin: 20px 10px;
+  float: left;
+}
+h3 {
+  clear: both;
+}
+h3:last-of-type {
+  margin-top: 300px;
+}
+
+section {
+  text-align: center;
+
+}
+.border section {
+  border: 1px dashed #000;
+}
+.border-solid section {
+  border: 1px solid #000;
+}
+
+.row {
+  grid-template-rows: 50px 50px;
+}
+.column {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.auto-rows {
+  grid-auto-rows: 50px;
+}
+.auto-flow {
+  grid-auto-flow: column;
+}
+.auto-columns {
+  grid-auto-columns: 50px;
+}

@@ -1,0 +1,46 @@
+p {
+  margin: 0;
+}
+div {
+  display: grid;
+  width: 200px;
+  height: 100px;
+  margin: 20px 10px;
+  float: left;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px 10px;
+}
+h3 {
+  clear: both;
+}
+section {
+  text-align: center;
+  line-height: 45px;
+  background: #F60;
+  color: #FFF;
+}
+.zero {
+  order: 0;
+}
+.first {
+  order: 1;
+}
+.second {
+  order: 2;
+}
+.third {
+  order: 3;
+}
+.fourth {
+  order: 4;
+}
+.fifth {
+  order: 5;
+}
+.sixth {
+  order: 6;
+}
+.yellow {
+  background: #FC0;
+}

@@ -1,0 +1,33 @@
+p {
+  margin: 0;
+}
+div {
+  display: grid;
+  width: 200px;
+  height: 100px;
+  margin: 20px 10px;
+  float: left;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+h3 {
+  clear: both;
+}
+
+section {
+  text-align: center;
+}
+.border section {
+  border: 1px dashed #000;
+}
+.border-solid section {
+  border: 1px solid #000;
+}
+
+.row-column-gap {
+  row-gap: 10px;
+  column-gap: 20px;
+}
+.gap {
+  gap: 10px 20px;
+}

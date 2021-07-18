@@ -1,0 +1,48 @@
+p {
+  margin: 0;
+}
+div {
+  display: grid;
+  width: 200px;
+  height: 100px;
+  border: 1px solid #000;
+  margin: 20px 10px;
+  float: left;
+}
+h3 {
+  clear: both;
+}
+section {
+  text-align: center;
+  line-height: 2;
+}
+.border section {
+  border: 1px dashed #000;
+}
+
+.row {
+  grid-template-rows: repeat(3, 1fr);
+}
+.column {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.six {
+  grid-row: 2 / 3;
+  grid-column: 2 / span 2;
+  background: #F60;
+  color: #FFF;
+}
+
+.seven {
+  grid-row: 2;
+  grid-column: 2;
+  background: #F60;
+  color: #FFF;
+}
+
+.eight {
+  grid-area: 2 / 2 / 3 / span 2;
+  background: #F60;
+  color: #FFF;
+}

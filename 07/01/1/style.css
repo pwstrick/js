@@ -1,0 +1,36 @@
+p {
+  margin: 0;
+}
+div {
+  display: grid;
+  width: 200px;
+  height: 100px;
+  border: 1px solid #000;
+  margin: 20px 10px;
+  float: left;
+}
+h3 {
+  clear: both;
+}
+section {
+  text-align: center;
+  line-height: 50px;
+}
+.border section {
+  border: 1px dashed #000;
+}
+
+.row {
+  grid-template-rows: 50px 50px;
+}
+
+.column-minix {
+  grid-template-columns: 50px 50% 30px;
+}
+.column-minmax {
+  grid-template-columns: 50px 50% minmax(30px, 100%);
+}
+
+.column-minmax-name {
+  grid-template-columns: [col-a] 50px [col-b] 50% [col-c] minmax(30px, 100%);
+}

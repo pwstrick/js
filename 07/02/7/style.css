@@ -1,0 +1,59 @@
+p {
+  margin: 0;
+}
+div {
+  display: grid;
+  width: 200px;
+  height: 100px;
+  border: 1px solid #000;
+  margin: 20px 10px;
+  float: left;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+h3 {
+  clear: both;
+}
+section {
+  text-align: center;
+  line-height: 50px;
+}
+.border section {
+  border: 1px dashed #000;
+}
+.border-solid section {
+  border: 2px solid #FFF;
+  color: #FFF;
+}
+.border-solid section:first-child {
+  background: #F60;
+}
+.border-solid section:nth-child(2) {
+  background: #FC0;
+}
+.border-solid section:nth-child(3) {
+  background: #CCC;
+}
+.border-solid section:nth-child(4) {
+  background: #000;
+}
+.border-solid section:nth-child(5) {
+  background: blue;
+}
+.border-solid section:last-child {
+  background: purple;
+}
+
+.row {
+  grid-auto-flow: row;
+}
+.column {
+  grid-auto-flow: column;
+}
+
+.row-dense {
+  grid-auto-flow: row dense;
+}
+.across {
+  grid-column: auto / span 2;
+}
