@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>preserveAspectRatio属性</title>
+	<style>
+		svg {
+			border: 1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<h4>align</h4>
+	<div>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMinYMin">
+		<rect width="50" height="50" fill="#F60" />
+	  </svg>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMidYMid">
+		<rect width="50" height="50" fill="#F60" />
+	  </svg>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMinYMax">
+		<rect width="50" height="50" fill="#F60" />
+	  </svg>
+	</div>
+	<div>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMinYMin">
+		<rect width="50" height="50" fill="#F60" />
+	  </svg>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMidYMin">
+		<rect width="50" height="50" fill="#F60" />
+	  </svg>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMaxYMin">
+		<rect width="50" height="50" fill="#F60" />
+	  </svg>
+	</div>
+	<div>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMinYMid">
+		<rect width="50" height="50" fill="#F60" />
+	  </svg>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMidYMid">
+		<rect width="50" height="50" fill="#F60" />
+	  </svg>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMaxYMid">
+		<rect width="50" height="50" fill="#F60" />
+	  </svg>
+	</div>
+	<div>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMinYMax">
+		<rect width="50" height="50" fill="#F60" />
+	  </svg>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMidYMax">
+		<rect width="50" height="50" fill="#F60" />
+	  </svg>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMaxYMax">
+		<rect width="50" height="50" fill="#F60" />
+	  </svg>
+	</div>
+	<h4>meetOrSlice</h4>
+	<div>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMinYMin meet">
+		<rect width="150" height="150" fill="#F60" />
+	  </svg>
+	  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 100" preserveAspectRatio="xMinYMin slice">
+		<rect width="150" height="150" fill="#F60" />
+	  </svg>
+	</div>
+</body>
+</html>

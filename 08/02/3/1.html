@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>线段</title>
+	<style>
+		svg {
+			border: 1px solid #000;
+		}
+		p {
+			margin: 0;
+		}
+		div {
+			overflow: hidden;
+		}
+		section {
+			width: 200px;
+			text-align: center;
+			float: left;
+			margin: 20px 0;
+		}
+	</style>
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 200">
+    <line x1="20" y1="100"  x2="100" y2="20" stroke="black" stroke-width="2"/>
+  </svg>
+  <div>
+	  <section>
+		  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 200">
+			<line x1="20" y1="100"  x2="100" y2="20" stroke="black" stroke-width="2" stroke-dasharray="5, 5" />
+		  </svg>
+		  <p>stroke-dasharray="5, 5"</p>
+	  </section>
+	  <section>
+		  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 200">
+			<!--<line x1="30" y1="30" x2="30" y2="90" stroke-linecap="butt" stroke="black" stroke-width="20"/> -->
+			<line x1="60" y1="30" x2="60" y2="90" stroke-linecap="round" stroke="black" stroke-width="20"/>
+			<!--<line x1="90" y1="30" x2="90" y2="90" stroke-linecap="square" stroke="black" stroke-width="20"/> -->
+		  </svg>
+		  <p>stroke-linecap="round"</p>
+	  </section>
+	  <section>
+		  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 18 12">
+			<path d="M1,5 a2,2 0,0,0 2,-3 a3,3 0 0 1 2,3.5" stroke="black" fill="none" stroke-linejoin="miter" />
+		  </svg>
+		  <p>stroke-linejoin="miter"</p>
+	  </section>
+	  <section>
+		<svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 200">
+			<polyline fill="none" stroke="#000" stroke-width="10" stroke-miterlimit="1" points="62,45 109,62.7 54.3,74.3 101.3,87.7 77.7,116.7 "/>
+		</svg>
+		<p>stroke-miterlimit="1"</p>
+	  </section>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 300 200">
+    <circle cx="100" cy="100" r="50" stroke="black" stroke-width="2" stroke-dasharray="314" stroke-dashoffset="40" fill="transparent" />
+  </svg>
+</body>
+</html>
