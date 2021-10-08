@@ -1,11 +1,3 @@
-/*
- * @Author: strick
- * @LastEditors: strick
- * @Date: 2021-10-08 11:05:36
- * @LastEditTime: 2021-10-08 14:24:47
- * @Description: 
- * @FilePath: /strick/js/12/01/src/index.js
- */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {
