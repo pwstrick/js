@@ -37,7 +37,7 @@ ReactDOM.render(
         <App031 name="strick"/>
       </Route>
       <Route exact path="/03/2">
-        <App032/>
+        <App032 text="提交"/>
       </Route>
       <Route exact path="/04/1">
         <Btns1 names={[1,2,3]}>按钮列表</Btns1>

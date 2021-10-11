@@ -6,7 +6,7 @@ class Btn extends React.Component {
 }
 class Container extends React.Component {
   render() {
-    return <Btn text="提交" />;
+    return <Btn text={this.props.text} />;
   }
 }
 export default Container;
