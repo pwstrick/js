@@ -9,6 +9,7 @@ import React from 'react';
 class Btn extends React.Component {
   handle1(e) {
     console.log("子元素");
+    e.stopPropagation();
   }
   handle2(e) {
     console.log("父元素");
