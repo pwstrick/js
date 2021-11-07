@@ -20,8 +20,8 @@ function Btn(props) {        　　//展示组件
   return <button>{props.txt}</button>;
 }
 function mapStateToProps(state, ownProps) {
-  console.log(state);            //{digit: 0}
-  console.log(ownProps);         //{txt: "提交"}
+  console.log(state);
+  console.log(ownProps);
   return state;
 }
 let Smart = connect(mapStateToProps)(Btn);        //生成容器组件
