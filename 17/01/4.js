@@ -37,7 +37,7 @@ class List {
     //前移 n 步
     while (i < n && fast) {
       fast = fast.next;
-	  i++;
+	    i++;
     }
     while (fast) {
       fast = fast.next;

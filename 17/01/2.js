@@ -56,8 +56,8 @@ class List {
     }
     this.recursive(next);
     /************************************
-    * 移动结点
-    * 例如Node(2).next.next就是Node(3)
+    * 移动结点 1->2->3，1->2<-3
+    * Node(2).next.next就是Node(3).next
     * 巧妙的将Node(3).next链接为Node(2)
     ************************************/
     current.next.next = current;

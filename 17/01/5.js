@@ -34,7 +34,7 @@ class List {
       fast = this.header.next;
     while (slow && fast && fast.next) {
       slow = slow.next;
-	  fast = fast.next.next;
+	    fast = fast.next.next;
     }
     return slow;
   }
