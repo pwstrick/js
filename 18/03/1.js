@@ -15,7 +15,7 @@ function merge(left, right) {
   let result = [];
   //求解
   while (left.length && right.length) {
-	//小的在左，大的在右
+	  //小的在左，大的在右
     if (left[0] <= right[0]) {
       result.push(left.shift());
     } else {

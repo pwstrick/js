@@ -7,7 +7,7 @@ function lemonadeChange(bills) {
         five++;				//增加5元纸币数量
         break;
       case 10:
-        if (five > 0) {		//有5元才纸币能找零
+        if (five > 0) {		//有5元纸币才能找零
           five--;
         } else {
           return false;
